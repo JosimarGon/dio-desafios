@@ -60,7 +60,7 @@ public class Contador {
 	 */
 	static int contar(int parametroUm, int parametroDois ) throws ParametrosInvalidosException {
 		//validar se parametroUm é MAIOR que parametroDois e lançar a exceção
-		if (parametroUm > parametroDois){
+		if (parametroUm >= parametroDois){
             throw new ParametrosInvalidosException();
 
         }else{
