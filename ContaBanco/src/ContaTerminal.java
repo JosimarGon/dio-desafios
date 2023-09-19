@@ -21,9 +21,7 @@ public class ContaTerminal {
 
             System.out.println("Digite o saldo bancário: ");
             double saldo = scanner.nextDouble();
-
-   // Exibir as mensagens para o nosso usuário
-
+   
             System.out.print("Olá " + nomeCliente +", obrigado por criar uma conta em nosso banco, sua");
             System.out.print("agência é " + agencia + ", conta "+numeroConta+" e seu saldo "+ saldo +" já está disponível para saque.");
         }
@@ -32,5 +30,4 @@ public class ContaTerminal {
 
     // Exibir a mensagem com valores criados
     }
-
 }
